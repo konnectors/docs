@@ -1,3 +1,59 @@
 theme: jekyll-theme-cayman
 site:
   title: Cozy Konnectors Documentation
+
+guidlines:
+  - name: renovate
+    title: Renovate
+    link: renovate
+  - name: readme
+    title: New Readme
+    link: new-readme
+  - name: branch
+    title: Git Branch
+    link: git-branch
+  - name: autobuild
+    title: Auto Build
+    link: auto-build
+
+konnectors:
+  - name: Ameli
+    repo: konnectors/cozy-konnector-ameli
+    guidlines:
+      renovate: ok
+  - name: Bouygues Box
+    repo: cozy/cozy-konnector-bouyguesbox
+  - name: Bouygues Telecom Mobile
+    repo: cozy/cozy-konnector-bouyguestelecom
+  - name: Digiposte
+    repo: cozy/cozy-konnector-digiposte
+  - name: Direct Energie
+    repo: konnectors/cozy-konnector-directenergie
+  - name: Free
+    repo: cozy/cozy-konnector-free
+  - name: Free Mobile
+    repo: cozy/cozy-konnector-free-mobile
+  - name: Harmonie Mutuelle
+    repo: cozy/cozy-konnector-harmonie
+  - name: MAIF
+    repo: cozy/cozy-konnector-maif
+  - name: Malakoff Mederic
+    repo: cozy/cozy-konnector-malakoffmederic
+  - name: Materiel.net
+    repo: nicofrand/cozy-konnector-materielnet
+  - name: Numéricable
+    repo: cozy/cozy-konnector-numericable
+  - name: Orange
+    repo: cozy/cozy-konnector-orange
+  - name: Orange Livebox
+    repo: cozy/cozy-konnector-orangevod
+#  - name: EDF
+#    repo: labs/cozy-konnector-edf
+#  - name: Orange Mobile
+#    repo: gjacquart/cozy-konnector-orangemobile
+  - name: Sosh
+    repo: cozy/cozy-konnector-sosh
+  - name: SFR box
+    repo: cozy/cozy-konnector-sfrbox
+  - name: Trainline
+    repo: cozy/cozy-konnector-trainline
