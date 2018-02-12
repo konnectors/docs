@@ -21,6 +21,8 @@ konnectors:
     repo: konnectors/cozy-konnector-ameli
     guidlines:
       renovate: ok
+      branch: ok
+      autobuild: ok
   - name: Bouygues Box
     repo: cozy/cozy-konnector-bouyguesbox
   - name: Bouygues Telecom Mobile
