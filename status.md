@@ -1,18 +1,87 @@
 # Konnectors Status
 
-| konnector | master | prod | Issue | Guideline
-| :-------: | :----: | :--: | :---: | :-------:
-| [ameli] | ![Travis master][ameli-travis-master] ![GitHub master][ameli-gh-master] | ![Travis prod][ameli-travis-prod] ![GitHub prod][ameli-gh-prod] | [![PR][ameli-pr]][ameli-pr-link] [![issue][ameli-issue]][ameli-issue-link] | [![Renovate][renovate-ok]](#renovate) ![readme][readme-ko] ![Auto Build][autobuild-ko] [![Git Branch][branch-ko]](#git-branch) [![Organisation][orga-ok]](#organisation)
-
-[ameli]: https://gitub.com/konnectors/cozy-konnector-ameli
-[ameli-travis-master]: https://img.shields.io/travis/konnectors/cozy-konnector-ameli/master.svg?style=flat-square
-[ameli-travis-prod]: https://img.shields.io/travis/konnectors/cozy-konnector-ameli/prod.svg?style=flat-square
-[ameli-gh-master]: https://img.shields.io/github/last-commit/konnectors/cozy-konnector-ameli/master.svg?style=flat-square
-[ameli-gh-prod]: https://img.shields.io/github/last-commit/konnectors/cozy-konnector-ameli/prod.svg?style=flat-square
-[ameli-pr]: https://img.shields.io/github/issues-pr/konnectors/cozy-konnector-ameli.svg?style=flat-square
-[ameli-pr-link]: https://github.com/konnectors/cozy-konnector-ameli/pulls
-[ameli-issue]: https://img.shields.io/github/issues/konnectors/cozy-konnector-ameli.svg?style=flat-square
-[ameli-issue-link]: https://github.com/konnectors/cozy-konnector-ameli/issues
+<table>
+  <thead>
+    <tr>
+      <th>konnector</th>
+      <th>master</th>
+      <th>prod</th>
+      <th>Issue</th>
+      <th>Guideline</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for item in site.konnectors %}
+      <tr>
+        <td>
+          <a href='https://github.com/{{ item.repo }}'>{{ item.name }}</a>
+        </td>
+        <td>
+          <a href="https://travis-ci.org/{{ item.repo }}">
+            <img
+              alt="Travis master"
+              src="https://img.shields.io/travis/{{ item.repo }}/master.svg?style=flat-square"
+            />
+          </a>
+          <img
+            alt="GitHub master"
+            src="https://img.shields.io/github/last-commit/{{ item.repo }}/master.svg?style=flat-square"
+          />
+        </td>
+        <td>
+          <a href="https://travis-ci.org/{{ item.repo }}">
+            <img
+              alt="Travis prod"
+              src="https://img.shields.io/travis/{{ item.repo }}/prod.svg?style=flat-square"
+            />
+          </a>
+          <img
+            alt="GitHub prod"
+            src="https://img.shields.io/github/last-commit/{{ item.repo }}/prod.svg?style=flat-square"
+          />
+        </td>
+        <td>
+          <a href="https://github.com/{{ item.repo }}/pulls">
+            <img
+              alt="Pull Request"
+              src="https://img.shields.io/github/issues-pr/{{ item.repo }}.svg?style=flat-square"
+            />
+          </a>
+          <a href="https://github.com/{{ item.repo }}/issues">
+            <img
+              alt="Issue"
+              src="https://img.shields.io/github/issues/{{ item.repo }}.svg?style=flat-square"
+            />
+          </a>
+        </td>
+        <td>
+          <a href="#organisation">
+            {% assign isOk = 'ko' %}
+            {% if item.repo contains 'konnectors/' %}
+              {% assign isOk = 'ok' %}
+            {% endif %}
+            <img
+              alt="Organisation"
+              src="https://img.shields.io/badge/Organisation-{{ isOk }}-{% if isOk == 'ok' %}brightgreen{% else %}lightgrey{% endif %}.svg?style=flat-square"
+            />
+          </a>
+          {% for guidline in site.guidlines %}
+            {% assign isOk = 'ko' %}
+            <a href="#{{ guidline.link }}">
+              {% if item.guidlines[guidline.name] == "ok" %}
+                {% assign isOk = 'ok' %}
+              {% endif %}
+              <img
+                alt="{{ guidline.title }}"
+                src="https://img.shields.io/badge/{{ guidline.title }}-{{ isOk }}-{% if isOk == 'ok' %}brightgreen{% else %}lightgrey{% endif %}.svg?style=flat-square"
+              />
+            </a>
+          {% endfor %}
+        </td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
 
 ## Guidelines
 
