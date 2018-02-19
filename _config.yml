@@ -26,6 +26,7 @@ konnectors:
       renovate: ok
       branch: ok
       autobuild: ok
+      prettier: ok
   - name: Bouygues Box
     repo: cozy/cozy-konnector-bouyguesbox
   - name: Bouygues Telecom Mobile
@@ -39,13 +40,35 @@ konnectors:
   - name: Free Mobile
     repo: cozy/cozy-konnector-free-mobile
   - name: Harmonie Mutuelle
-    repo: cozy/cozy-konnector-harmonie
+    repo: konnectors/cozy-konnector-harmonie
+    guidlines:
+      renovate: ok
+      branch: ok
+      autobuild: ok
+      prettier: ok
   - name: MAIF
-    repo: cozy/cozy-konnector-maif
+    repo: konnectors/cozy-konnector-maif
+    guidlines:
+      renovate: ok
+      branch: ok
+      autobuild: ok
+      prettier: ok
   - name: Malakoff Mederic
-    repo: cozy/cozy-konnector-malakoffmederic
+    repo: konnectors/cozy-konnector-malakoffmederic
+    guidlines:
+      renovate: ok
+      branch: ok
+      autobuild: ok
+      prettier: ok
   - name: Materiel.net
     repo: nicofrand/cozy-konnector-materielnet
+  - name: MGEN
+    repo: konnectors/cozy-konnector-mgen
+    guidlines:
+      renovate: ok
+      branch: ok
+      autobuild: ok
+      prettier: ok
   - name: Numéricable
     repo: cozy/cozy-konnector-numericable
   - name: Orange
