@@ -15,6 +15,9 @@ guidlines:
   - name: autobuild
     title: Auto Build
     link: auto-build
+  - name: prettier
+    title: Prettier
+    link: prettier
 
 konnectors:
   - name: Ameli
