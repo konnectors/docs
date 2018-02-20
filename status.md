@@ -135,3 +135,12 @@ If that is the case [![Git Branch][branch-ok]](#git-branch) else [![Git Branch][
 
 [branch-ok]: https://img.shields.io/badge/Branch-Ok-brightgreen.svg?style=flat-square
 [branch-ko]: https://img.shields.io/badge/Branch-Not%20yet-lightgrey.svg?style=flat-square
+
+### Prettier
+
+Use prettier to format code, and pretty-quick to format before each commit.
+
+If that is the case [![Prettier][prettier-ok]](#prettier) else [![Prettier][prettier-ko]](#prettier).
+
+[prettier-ok]: https://img.shields.io/badge/Prettier-Ok-brightgreen.svg?style=flat-square
+[prettier-ko]: https://img.shields.io/badge/Prettier-Not%20yet-lightgrey.svg?style=flat-square
