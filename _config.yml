@@ -31,10 +31,14 @@ konnectors:
     repo: cozy/cozy-konnector-bouyguesbox
   - name: Bouygues Telecom Mobile
     repo: cozy/cozy-konnector-bouyguestelecom
+  - name: Credit agricole
+    repo: cozy/cozy-konnector-bank-cragr
   - name: Digiposte
     repo: cozy/cozy-konnector-digiposte
   - name: Direct Energie
     repo: konnectors/cozy-konnector-directenergie
+  - name: Enercoop
+    repo: konnectors/cozy-konnector-enercoop
   - name: Free
     repo: cozy/cozy-konnector-free
   - name: Free Mobile
@@ -79,9 +83,19 @@ konnectors:
 #    repo: labs/cozy-konnector-edf
 #  - name: Orange Mobile
 #    repo: gjacquart/cozy-konnector-orangemobile
-  - name: Sosh
-    repo: cozy/cozy-konnector-sosh
+  - name: Payfit
+    repo: konnectors/cozy-konnector-payfit
+  - name: RED box
+    repo: cozy/cozy-konnector-redbox
+  - name: RED mobile
+    repo: cozy/cozy-konnector-redmobile
   - name: SFR box
     repo: cozy/cozy-konnector-sfrbox
+  - name: SFR mobile
+    repo: cozy/cozy-konnector-sfrmobile
+  - name: OUI SNCF
+    repo: cozy/cozy-konnector-sncf
+  - name: Sosh
+    repo: cozy/cozy-konnector-sosh
   - name: Trainline
     repo: cozy/cozy-konnector-trainline
