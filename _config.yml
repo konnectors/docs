@@ -28,9 +28,9 @@ konnectors:
       autobuild: ok
       prettier: ok
   - name: Bouygues Box
-    repo: cozy/cozy-konnector-bouyguesbox
+    repo: konnectors/cozy-konnector-bouyguesbox
   - name: Bouygues Telecom Mobile
-    repo: cozy/cozy-konnector-bouyguestelecom
+    repo: konnectors/cozy-konnector-bouyguestelecom
   - name: Credit agricole
     repo: cozy/cozy-konnector-bank-cragr
   - name: Digiposte
@@ -40,9 +40,9 @@ konnectors:
   - name: Enercoop
     repo: konnectors/cozy-konnector-enercoop
   - name: Free
-    repo: cozy/cozy-konnector-free
+    repo: konnectors/cozy-konnector-free
   - name: Free Mobile
-    repo: cozy/cozy-konnector-free-mobile
+    repo: konnectors/cozy-konnector-free-mobile
   - name: Harmonie Mutuelle
     repo: konnectors/cozy-konnector-harmonie
     guidlines:
@@ -74,9 +74,9 @@ konnectors:
       autobuild: ok
       prettier: ok
   - name: Numéricable
-    repo: cozy/cozy-konnector-numericable
+    repo: konnectors/cozy-konnector-numericable
   - name: Orange
-    repo: cozy/cozy-konnector-orange
+    repo: konnectors/cozy-konnector-orange
   - name: Orange Livebox
     repo: cozy/cozy-konnector-orangevod
 #  - name: EDF
@@ -96,6 +96,6 @@ konnectors:
   - name: OUI SNCF
     repo: cozy/cozy-konnector-sncf
   - name: Sosh
-    repo: cozy/cozy-konnector-sosh
+    repo: konnectors/cozy-konnector-sosh
   - name: Trainline
     repo: cozy/cozy-konnector-trainline
