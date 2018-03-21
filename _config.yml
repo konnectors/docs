@@ -73,6 +73,13 @@ konnectors:
       branch: ok
       autobuild: ok
       prettier: ok
+  - name: Nef
+    repo: konnectors/cozy-konnector-nef
+    guidlines:
+      renovate: ok
+      branch: ok
+      autobuild: ok
+      prettier: ok
   - name: Numéricable
     repo: konnectors/cozy-konnector-numericable
   - name: Orange
