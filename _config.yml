@@ -43,6 +43,13 @@ konnectors:
     repo: konnectors/cozy-konnector-free
   - name: Free Mobile
     repo: konnectors/cozy-konnector-free-mobile
+  - name: Generali
+    repo: konnectors/cozy-konnector-generali
+    guidlines:
+      renovate: ok
+      branch: ok
+      autobuild: ok
+      prettier: ok
   - name: Harmonie Mutuelle
     repo: konnectors/cozy-konnector-harmonie
     guidlines:
