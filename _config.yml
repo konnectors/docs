@@ -97,6 +97,13 @@ konnectors:
 #    repo: labs/cozy-konnector-edf
 #  - name: Orange Mobile
 #    repo: gjacquart/cozy-konnector-orangemobile
+  - name: Pajemploi
+    repo: konnectors/cozy-konnector-pajemploi
+    guidlines:
+      renovate: ok
+      branch: ok
+      autobuild: ok
+      prettier: ok
   - name: Payfit
     repo: konnectors/cozy-konnector-payfit
   - name: RED box
