@@ -118,5 +118,12 @@ konnectors:
     repo: cozy/cozy-konnector-sncf
   - name: Sosh
     repo: konnectors/cozy-konnector-sosh
+  - name: The Old Reader
+    repo: konnectors/cozy-konnector-theoldreader
+    guidlines:
+      renovate: ok
+      branch: ok
+      autobuild: ok
+      prettier: ok
   - name: Trainline
     repo: cozy/cozy-konnector-trainline
