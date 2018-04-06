@@ -136,9 +136,9 @@ If that is the case [![Git Branch][branch-ok]](#git-branch) else [![Git Branch][
 [branch-ok]: https://img.shields.io/badge/Branch-Ok-brightgreen.svg?style=flat-square
 [branch-ko]: https://img.shields.io/badge/Branch-Not%20yet-lightgrey.svg?style=flat-square
 
-### Prettier
+### Linting
 
-Use prettier to format code, and pretty-quick to format before each commit.
+Use eslint-config-cozy-app to lint the code.
 
 If that is the case [![Prettier][prettier-ok]](#prettier) else [![Prettier][prettier-ko]](#prettier).
 
