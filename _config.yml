@@ -31,6 +31,13 @@ konnectors:
     repo: konnectors/cozy-konnector-bouyguesbox
   - name: Bouygues Telecom Mobile
     repo: konnectors/cozy-konnector-bouyguestelecom
+  - name: CESU
+    repo: konnectors/cozy-konnector-cesu
+    guidlines:
+      renovate: ok
+      branch: ok
+      autobuild: ok
+      prettier: ok
   - name: Credit agricole
     repo: cozy/cozy-konnector-bank-cragr
   - name: Digiposte
@@ -59,6 +66,13 @@ konnectors:
       prettier: ok
   - name: MAIF
     repo: konnectors/cozy-konnector-maif
+    guidlines:
+      renovate: ok
+      branch: ok
+      autobuild: ok
+      prettier: ok
+  - name: MAIF echeancier
+    repo: konnectors/cozy-konnector-echeancier-maif
     guidlines:
       renovate: ok
       branch: ok
