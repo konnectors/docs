@@ -116,7 +116,7 @@ To remove human errors we want the connectors to build automatically:
 
 - When there are changes on the #master branch, Travis must make an automatic build on the #build
   branch and deploy to the registry using cozy-app-publish. Since there is no tag, the registry
-  will tage this version as a development version
+  will tag this version as a development version
 - When there is a new tag on the master brach, Travis must make an automatic build on the #build
   branch and deploy to the registry using cozy-app-publish. The tag will tell to the registry that
   this is a stable version
